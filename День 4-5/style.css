@@ -1,0 +1,489 @@
+@font-face {
+    font-family: OpenSansRegular;
+    src: url("fonts/static/OpenSans/OpenSans-Regular.ttf");
+}
+* {
+    margin: 0; padding: 0;
+    font-family: OpenSansRegular;
+}
+.content{
+    width: 1147px;
+    margin: 0 auto;
+}
+/*---- buttons ---*/
+button {
+    display: block;
+    line-height: 50px;
+    padding: 0 30px;
+    border-radius: 2px;
+}
+.white {
+    color: #1976D2;
+    border: 2px solid #1976D2;   
+    background: none;
+    padding: 10px;
+}
+.blue {
+    color: white;
+    background: #1976D2;
+    border: none;
+    margin-top: 15px;
+}
+/*-----buttons end ----*/
+
+/*------ header start------*/
+header .content{
+    display: flex;
+    justify-content: space-between;
+} 
+
+/*строка 1*/
+header .content > div{ 
+    display: flex;
+    align-items: center;
+}
+header .logo{
+    background: url(img/logo.png);
+    background-size: cover;
+    width: 303px;
+    height: 121px;
+}
+header .city{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #383838;
+}
+header .poisk input{
+    color: rgb(155, 147, 147);
+    width: 200px;
+    height: 20px;
+    border-radius: 3px;
+}
+header .city span{
+    display: block;
+    color:  #1976D2;
+    font-size: 15px;
+}
+header .time p{
+    font-size: 10px;
+    color: rgb(107, 105, 105);
+}
+header .time .phone {
+    font-size: 1.2em;
+    color: black;
+}
+
+/**строка 2*/
+header ul{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+header li{
+    color: white;
+   display: flex;
+}
+header nav{
+    background:#1976D2 ;
+    padding: 20px 0;
+}
+
+/*строка 3*/
+header .start{
+    background: url("img/backg.png");
+}
+header .start .content .left {
+    display: block;
+}
+header .left {
+    width: 538px;
+    margin-left: 140px;
+}
+header h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;  
+    padding: 15px;
+}
+.tre1{
+    padding: 10px;
+}
+header .buttons {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+/*------ header end------*/
+
+.product{
+    margin-top: 20px;
+}
+h2{
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 42px;
+    padding: 45px;
+}
+.ui1{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #1976D2;
+    float: right;
+    margin-top: -95px;
+}
+.obory{
+    background: url(img/item.png);
+    width: 1142px;
+    height: 244px;
+}
+.mag{
+    background: url(img/Group\ 783.png);
+    width: 430px;
+    height: 220px;
+    grid-area: A;
+}
+.mag1{
+    background: url(img/Group\ 785\ \(1\).png);
+    width: 430px;
+    height: 220px;
+    grid-area: B;
+}
+.mag2{
+    background: url(img/Group\ 790.png);
+    width: 430px;
+    height: 220px;
+    grid-area: C;
+}
+.mag3{
+    background: url(img/Group\ 787\ \(1\).png);
+    width: 430px;
+    height: 220px;
+    grid-area: D;
+}
+.mag4{
+    background: url(img/Group\ 784.png);
+    width: 266px;
+    height: 450px;
+    grid-area: I;
+}
+.gri{
+    display: grid;
+    gap: 20px;
+    width: 100px;
+
+  /* ! */
+  grid-template-areas:
+    "A C I"
+    "B D I";
+}
+.textm1{
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 30px;
+    width: 132px;
+    margin-top: 90px;
+    padding: 35px;
+}
+.textm{
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 30px;
+    width: 132px;
+    margin-top: 130px;
+    padding: 35px;
+}
+.textm2{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 30px;
+    width: 90px;
+    margin-top: 360px;
+    padding: 35px;
+}
+.groups{
+    margin-top: 50px;
+}
+.logo1{
+    background: url(img/logo.png);
+    background-size: cover;
+    width: 303px;
+    height: 121px;
+    float: right;
+    margin-top: -215px;
+}
+h3{
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 42px;
+    width: 752px;
+    padding: 20px;
+}
+.gro{
+    font-size: 14px;
+    line-height: 22px;
+    width: 752px;
+    padding: 15px;
+}
+.gro span{
+    font-weight: 700;
+}
+.eko{
+    background: url(img/Group\ 792.png);
+    background-size: cover;
+    width: 165px;
+    height: 100px;
+}
+.finist{
+    background: url(img/Group\ 793.png);
+    background-size: cover;
+    width: 165px;
+    height: 100px;
+}
+.rada{
+    background: url(img/Group\ 794.png);
+    background-size: cover;
+    width: 165px;
+    height: 100px;
+}
+.polair{
+    background: url(img/Group\ 795.png);
+    background-size: cover;
+    width: 165px;
+    height: 100px;
+}
+.hi{
+    background: url(img/Group\ 796.png);
+    background-size: cover;
+    width: 165px;
+    height: 100px;
+}
+.top{
+    background: url(img/Group\ 797.png);
+    background-size: cover;
+    width: 165px;
+    height: 100px;
+}
+.tor{
+    background: url(img/Group\ 798.png);
+    background-size: cover;
+    width: 165px;
+    height: 100px;
+}
+.groups1{
+    display: flex;
+}
+h4{
+    width: 157px;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 42px;
+    padding: 15px;
+}
+.rev{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    width: 320px; 
+    padding: 10px;  
+}
+.reviews{
+    margin-top: 50px;
+}
+.reviews .content{
+    display: flex;
+    gap: 35px;
+}
+.rev1{
+    border: 2px solid #E8E7FB; 
+    background:#F2FBFF;
+    width: 362px;
+}
+.avatar{
+    background: url(img/avatar.png);
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+    padding: 15px;
+}
+.ava{
+    display: flex;
+}
+.ava1{
+    width: 189px;
+    padding: 25px;
+    color: #1976D2;
+}
+.ava span{
+    color: #666666;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    width: 105px;
+}
+.invo{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    width: 302px;
+    color: #666666;
+    padding: 15px;
+}
+.avat{
+    display: flex;
+}
+.avatar1{
+    background: url(img/avatar1.png);
+    background-size: cover;
+    width: 100px;
+    height: 60px;
+    padding: 10px;
+}
+.avat p{
+    width: 182px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E5B67;
+    padding: 10px;
+}
+.rev2{
+    border: 2px solid #E8E7FB; 
+    background:#F2FBFF;
+    width: 362px;
+}
+.ai{
+    background: url(img/avatar\ 2.png);
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+    padding: 10px; 
+}
+.ai1{
+    background: url(img/avatar\ 22.png);
+    background-size: cover;
+    width: 100px;
+    height: 60px;
+    padding: 10px;
+    margin-top: 163px;
+}
+.avat1{
+    display: flex;
+}
+.avat1 p{
+    width: 182px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E5B67;
+    padding: 10px;
+    margin-top: 163px;
+}
+.poto{
+    background: url(img/Group\ 799.png);
+    background-size: cover;
+    width: 362.77px;
+    height: 485px;
+    margin-top: 100px;
+}
+.pot{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    color: #1976D2;
+    margin-top: 417px;
+    margin-left: 75px;
+}
+.pot1{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #666666;
+    margin-top: 2px;
+    margin-left: 75px;
+}
+.questions .content{
+    display: flex;
+    gap: 65px;
+}
+h5{
+    width: 616px;
+    font-size: 25px;
+    line-height: 60px;
+}
+.quest {
+    width: 700px;
+}
+.quest p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #666666;
+}
+.quest{
+    margin-top: 150px;
+}
+.quest_but {
+    width: 169px;
+    margin: 0;
+}
+.quest span{
+    color: #1976D2;
+}
+.pot3{
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    align-items: center;
+}
+input{
+    width: 322px;
+    height: 45px;
+    margin-top: 25px;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 15px;
+}
+.inp{
+    display: block;
+}
+
+footer {
+    margin-top: 140px;
+    background: #2E2E2F;
+}
+.kontakt{
+    width: 1147px;
+    display: flex;
+    padding: 15px;
+    gap: 100px;
+    color: white;
+}
+.gl{
+    font-size: 17px;
+    line-height: 55px; 
+}
+.gl1{
+    font-size: 13px;
+    color:#666666;
+    line-height: 25px; 
+}
+.gl2{
+    font-size: 13px;
+    line-height: 40px; 
+}
+.gl3{
+    font-size: 17px;
+    line-height: 55px; 
+    color: #1976D2;
+}
+.gl4{
+    line-height: 25px; 
+    font-size: 13px;
+    color: #1976D2;
+}
+.kont{
+    margin-left: 100px;
+}
